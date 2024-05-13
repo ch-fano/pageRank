@@ -14,7 +14,6 @@ class CLI:
                                         "\'drugreview\' folder")
         self.args = self.parser.parse_args()
 
-
 if __name__ == "__main__":
     cli = CLI()
     print(cli.args)
