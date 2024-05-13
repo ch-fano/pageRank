@@ -1,6 +1,5 @@
 import json
 import os
-import requests
 import pandas as pd
 from kaggle.api.kaggle_api_extended import KaggleApi
 
@@ -30,7 +29,7 @@ def download_dataset(dataset_url, output_path):
 def csv_to_list_of_dicts(csv_file):
     df = pd.read_csv(csv_file)
 
-    data_list = []
+    data = {}
     count = 0
     for _, row in df.iterrows():
         row_dict = {
@@ -44,10 +43,10 @@ def csv_to_list_of_dicts(csv_file):
             'usefulCount': row['usefulCount'],
             'review_length': len(row['review'])
         }
+        data[count] = row_dict
         count += 1
-        data_list.append(row_dict)
 
-    return data_list
+    return data
 
 
 def setup():
