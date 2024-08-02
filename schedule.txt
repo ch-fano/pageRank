@@ -1,5 +1,5 @@
-- Finire il search engine di base
 - stabilire le 10 query da applicare sul modello 
+- valutare un nuovo modello di ranking
 
 - applicare la sentiment analysis (provare due tipi di sentiment)
 - applicare word2vec -> capire in che contesto può essere applicato: esempio ricercare medicinali per effetto collaterale
