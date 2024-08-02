@@ -1,5 +1,9 @@
 - stabilire le 10 query da applicare sul modello 
-- valutare un nuovo modello di ranking
+- valutare le performance di modelli di ranking differenti
+
+- aggiungere filtri di ricerca -> per data, per rating, per useful
+- interfaccia grafica -> Django?
+- interpretazione query a parole -> riscritta in modo corretto
 
 - applicare la sentiment analysis (provare due tipi di sentiment)
 - applicare word2vec -> capire in che contesto può essere applicato: esempio ricercare medicinali per effetto collaterale
