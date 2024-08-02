@@ -1,0 +1,7 @@
+INDEX:
+    MAINDIR: indexdir
+    DRGINDX: drugindex
+
+DATA:
+    DATADIR: dataset/json
+
