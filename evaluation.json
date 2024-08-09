@@ -1,0 +1,79 @@
+[
+    {
+        "UIN": "I need a solution for alopecia. I only want reviews written after the 2016",
+        "query": "Condition: Alopecia Review:solve alopecia  Period: after 2016",
+        "sentiments": [],
+        "relevant_documents": [
+        ]
+    },
+    {
+        "UIN": "I have stomach pain after eating a fish",
+        "query": "Review:stomach pain fish",
+        "sentiments": [
+        ],
+        "relevant_documents": [
+        ]
+    },
+    {
+        "UIN": "I have used Mesalamine for ulcerative colitis, it was so bad. Do not try this medicine",
+        "query": "DrugName:Mesalamine Condition:ulcerative colitis Review:bad do not try",
+        "sentiments": [
+        ],
+        "relevant_documents": [
+        ]
+    },
+    {
+        "UIN": "I burned my eye. I need a drugs to solve my eye dryness. Only useful reviews",
+        "query": "Condition: eye dryness Review: burned my eye Usefulness: >30",
+        "sentiments": [
+        ],
+        "relevant_documents": [
+        ]
+    },
+    {
+        "UIN": "",
+        "query": "",
+        "sentiments": [],
+        "relevant_documents": [
+        ]
+    },
+    {
+        "UIN": "",
+        "query": "",
+        "sentiments": [
+        ],
+        "relevant_documents": [
+        ]
+    },
+    {
+        "UIN": "",
+        "query": "",
+        "sentiments": [],
+        "relevant_documents": [
+        ]
+    },
+    {
+        "UIN": "",
+        "query": "",
+        "sentiments": [
+        ],
+        "relevant_documents": [
+        ]
+    },
+    {
+        "UIN": "",
+        "query": "",
+        "sentiments": [
+        ],
+        "relevant_documents": [
+        ]
+    },
+    {
+        "UIN": "",
+        "query": "",
+        "sentiments": [
+        ],
+        "relevant_documents": [
+        ]
+    }
+]
