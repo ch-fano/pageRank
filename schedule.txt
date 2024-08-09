@@ -1,3 +1,5 @@
+https://www.kaggle.com/account/login?titleType=dataset-downloads&showDatasetDownloadSkip=False&messageId=datasetsWelcome&returnUrl=%2Fdatasets%2Fmohamedabdelwahabali%2Fdrugreview%2Fversions%2F1%3Fresource%3Ddownload
+
 - stabilire le 10 query da applicare sul modello 
 - valutare le performance di modelli di ranking differenti
 
