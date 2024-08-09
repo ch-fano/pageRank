@@ -49,20 +49,22 @@ class SearchApp(QtWidgets.QMainWindow):
 
         # Configura la tabella
         self.table_widget.setRowCount(len(resDict))
-        self.table_widget.setColumnCount(4)
-        self.table_widget.setHorizontalHeaderLabels(["Drug", "Condition", "Review", "Rating"])
+        self.table_widget.setColumnCount(5)
+        self.table_widget.setHorizontalHeaderLabels(["DOC-ID", "Drug", "Condition", "Review", "Rating"])
 
-        # Popola la tabella con i risultati
+        # Popola la tabella con i risultati filtrati
         for row, (key, values) in enumerate(resDict.items()):
+            id_item = QTableWidgetItem(key)
             drug_item = QTableWidgetItem(values[0])
             condition_item = QTableWidgetItem(values[1])
             review_item = QTableWidgetItem(values[2])
             rating_item = QTableWidgetItem(str(values[3]))
 
-            self.table_widget.setItem(row, 0, drug_item)
-            self.table_widget.setItem(row, 1, condition_item)
-            self.table_widget.setItem(row, 2, review_item)
-            self.table_widget.setItem(row, 3, rating_item)
+            self.table_widget.setItem(row, 0, id_item)
+            self.table_widget.setItem(row, 1, drug_item)
+            self.table_widget.setItem(row, 2, condition_item)
+            self.table_widget.setItem(row, 3, review_item)
+            self.table_widget.setItem(row, 4, rating_item)
 
         # Ridimensiona le colonne
         self.table_widget.resizeColumnsToContents()
